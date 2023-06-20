@@ -92,7 +92,7 @@ version = "0.3"
 features = [ "env-filter" ]
 
 [dependencies.ureq]
-version = "2.5"
+version = "2.7"
 
 [dev-dependencies.indexmap]
 version = "1"
