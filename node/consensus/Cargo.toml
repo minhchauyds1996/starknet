@@ -50,7 +50,7 @@ version = "0.3"
 version = "0.1"
 
 [dev-dependencies.itertools]
-version = "0.10"
+version = "0.11"
 
 [dev-dependencies.tracing-test]
 version = "0.2"

@@ -43,7 +43,7 @@ version = "1.9"
 features = ["rayon"]
 
 [dependencies.itertools]
-version = "0.10"
+version = "0.11"
 
 [dependencies.linked-hash-map]
 version = "0.5"
