@@ -1506,6 +1506,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "itertools"
+version = "0.11.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b1c173a5686ce8bfa551b3563d0c2170bf24ca44da99c7ca4bfdab5418c3fe57"
+dependencies = [
+ "either",
+]
+
+[[package]]
 name = "itoa"
 version = "1.0.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2892,7 +2901,7 @@ version = "2.0.2"
 dependencies = [
  "anyhow",
  "indexmap",
- "itertools",
+ "itertools 0.11.0",
  "once_cell",
  "parking_lot",
  "rand",
@@ -2977,7 +2986,7 @@ dependencies = [
  "futures",
  "futures-util",
  "indexmap",
- "itertools",
+ "itertools 0.11.0",
  "linked-hash-map",
  "once_cell",
  "parking_lot",
@@ -3052,7 +3061,7 @@ dependencies = [
  "blake2",
  "hashbrown 0.13.2",
  "hex",
- "itertools",
+ "itertools 0.10.5",
  "parking_lot",
  "rand",
  "rand_chacha",
@@ -3125,7 +3134,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a8ed5fb5e1c66245e3274384981b3327162d91dcfc29d55575efe9bad6370403"
 dependencies = [
  "indexmap",
- "itertools",
+ "itertools 0.10.5",
  "nom",
  "num-traits",
  "once_cell",
@@ -3328,7 +3337,7 @@ checksum = "b0f3cefbd0c57f0242d57facc92790a257612d0f65b8fbf8f4e0651f891d4b61"
 dependencies = [
  "anyhow",
  "indexmap",
- "itertools",
+ "itertools 0.10.5",
  "lazy_static",
  "once_cell",
  "paste",
@@ -3352,7 +3361,7 @@ checksum = "557799a68846de0a82b653bcc89d88b7ba71b672bcb95dd0ee410ebf2b40f1aa"
 dependencies = [
  "anyhow",
  "bech32",
- "itertools",
+ "itertools 0.10.5",
  "nom",
  "num-traits",
  "rand",
@@ -3499,7 +3508,7 @@ dependencies = [
  "aleo-std",
  "anyhow",
  "derivative",
- "itertools",
+ "itertools 0.10.5",
  "num-traits",
  "rand",
  "rayon",
@@ -3540,7 +3549,7 @@ dependencies = [
  "curl",
  "hex",
  "indexmap",
- "itertools",
+ "itertools 0.10.5",
  "lazy_static",
  "paste",
  "rand",
@@ -3561,7 +3570,7 @@ dependencies = [
  "cfg-if",
  "fxhash",
  "indexmap",
- "itertools",
+ "itertools 0.10.5",
  "snarkvm-curves",
  "snarkvm-fields",
  "snarkvm-utilities",
@@ -3580,7 +3589,7 @@ dependencies = [
  "blake2",
  "colored",
  "indexmap",
- "itertools",
+ "itertools 0.10.5",
  "once_cell",
  "parking_lot",
  "paste",
@@ -3611,7 +3620,7 @@ dependencies = [
  "anyhow",
  "bincode 1.3.3",
  "blake2",
- "itertools",
+ "itertools 0.10.5",
  "rayon",
  "serde_json",
  "snarkvm-algorithms",
