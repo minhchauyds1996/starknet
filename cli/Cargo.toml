@@ -95,4 +95,4 @@ features = [ "env-filter" ]
 version = "2.5"
 
 [dev-dependencies.indexmap]
-version = "1"
+version = "2"
